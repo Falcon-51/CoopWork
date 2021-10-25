@@ -6,17 +6,13 @@ using namespace std;
 int main(int argc, char* argv[])
 {
 	int count; // переменная для выбора в switch
-
 	double a, b,Res = 0; // переменные для хранения операндов
-
 	cout << "Vvedite pervoe chislo: ";
 	cin >> a;
 
 	cout << "Vvedite vtoroe chislo: ";
 	cin >> b;
-
 	cout << "Vibirite deistvie: 1-slojenie; 2-vichitanie; 3-ymnojenie; 4-delenie: ";
-
 	cin >> count;
 	switch (count) // начало оператора switch
 	{
@@ -28,7 +24,8 @@ int main(int argc, char* argv[])
 	}
 	case 2:
 	{
-		 // выполнить вычитание
+		Res = MySub(a, b);// выполнить сложение
+		cout << "Raznost = " << Res << endl;
 		break;
 	}
 	case 3: // 
