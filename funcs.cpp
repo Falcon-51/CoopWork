@@ -1,22 +1,21 @@
 //funcs.cpp
-
 #include "funcs.h"
 #include <cmath>
 
 double MySum(double a, double b)
 {
-return a + b;
+	return a + b;
 }
-double MySub(double a, double b)
+double MySub(double A, double B)
 {
-return a - b;
+	return A - B;
 }
 double MyMul(double a, double b)
 {
-return a * b;
+	return a * b;
 }
 double MyDiv(double a, double b)
 {
-return a / b;
+	return a / b;
 }
 
