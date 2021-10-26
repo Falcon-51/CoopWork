@@ -10,9 +10,9 @@ double MySub(double A, double B)
 {
 	return A - B;
 }
-double MyMul(double a, double b)
+double MyMul(double A, double B)
 {
-	return a * b;
+	return A * B;
 }
 double MyDiv(double a, double b)
 {
