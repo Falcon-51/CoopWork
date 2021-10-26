@@ -7,7 +7,7 @@ using namespace std;
 int main(int argc, char* argv[])
 {
 	int count; // переменная для выбора в switch
-	double a, b,Res = 0; // переменные для хранения операндов
+	double a, b, Res = 0; // переменные для хранения операндов
 	cout << "Vvedite pervoe chislo: ";
 	cin >> a;
 
@@ -17,29 +17,31 @@ int main(int argc, char* argv[])
 	cin >> count;
 	switch (count) // начало оператора switch
 	{
-	case 1: 
+	case 1:
 	{
-		Res = MySum(a,b);// выполнить сложение
+		Res = MySum(a, b);
 		cout << "Summa = " << Res << endl;
 		break;
 	}
 	case 2:
 	{
-		Res = MySub(a, b);// выполнить сложение
+		Res = MySub(a, b);
 		cout << "Raznost = " << Res << endl;
 		break;
 	}
 	case 3: // 
 	{
-		 // выполнить умножение
+		Res = MyMul(a, b);
+		cout << "Proizdevenie = " << Res << endl;
 		break;
 	}
 	case 4: // 
 	{
-		 // выполнить деление
+		Res = MyDiv(a, b);
+		cout << "Deleniye = " << Res << endl;
 		break;
 	}
-	default: 
+	default:
 		cout << "Nepravilni vvod" << endl;
 	}
 	system("pause");

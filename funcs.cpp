@@ -14,9 +14,7 @@ double MyMul(double A, double B)
 {
 	return A * B;
 }
-double MyDiv(double a, double b)
+double MyDiv(double A, double B)
 {
-	return a / b;
+	return A / B;
 }
-
-
